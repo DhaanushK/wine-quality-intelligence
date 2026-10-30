@@ -1,0 +1,40 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# Power BI temporary/backup files
+*.pbix.autosave
+*.pbit
+
+# IDE settings
+.vscode/
+.idea/
